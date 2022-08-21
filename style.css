@@ -1,0 +1,74 @@
+body {
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h2 {
+    text-align: left;
+    padding-left: 10px;
+    
+}
+
+div.class-panel-border {
+    padding-top: 10px;
+    border: 1px solid gray;
+    margin-left: 800px;
+    margin-right: 800px;
+}
+
+.login {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul{
+    display: inline-flex;
+    list-style-type: none;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+nav {
+    padding-bottom: 50px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: bottom;
+    width: 100%;
+    background-color: rgb(255, 136, 0);
+    position: center;
+    top: 0;
+    height: 60px;
+
+}
+
+
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    
+
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    color: rgb(255,136,0);
+    text-align: center;
+    color: black;
+    padding: 10px 70px;
+}
